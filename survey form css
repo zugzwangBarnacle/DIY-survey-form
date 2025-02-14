@@ -1,0 +1,14 @@
+body {
+  background-color: pink;
+  color: crimson;
+  margin: 50; 
+  width: 77%;
+  height: 6vh;
+  font-family: tahoma;
+  font-size: 15px;
+}
+
+h1, p {
+  text-align: center;
+  margin: 1em auto;
+}
