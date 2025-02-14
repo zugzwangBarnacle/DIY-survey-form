@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Survey Form</title>
+<link rel="stylesheet" 
+href="styles.css" />
+</head>
+
+<body>
+<h1 id="title">Survey Form</h1>
+<p id="description">
+  Survey Form for top 10 survey forms format
+</p><br>
+<form method="post" 
+action='_blank' 
+id="survey-form">
+
+  <fieldset>
+    <label for="name"
+    id="name-label"
+    >Enter Your Name:
+    <input id="name" 
+    name="name" 
+    type="text" 
+    placeholder="last name + first name" 
+    required /></label>
+    <br>
+    <label for="email"
+    id="email-label"
+    >Enter Your Email:
+    <input id="email" 
+    name="email" 
+    type="email" 
+    placeholder="abcde@email.com" 
+    required /></label>
+    <br>
+    <label for="tel"
+    id="number-label"
+    >Enter Your Phone Number:
+    <input id="number" 
+    name="tel" 
+    type="number" 
+    placeholder="012 345 6789" 
+    min="10"
+    max="11"
+    required/></label>
+  </fieldset>
+
+  <fieldset>
+    <label for="milk-first">Milk or Cereal first?
+      <br>
+    <input id="milk-first" 
+    type="radio" 
+    name="moral-dilemma" 
+    value="1"
+    class="inline" 
+    checked />Milk
+    </label>
+    <label for="cereal-first">
+    <input id="cereal-first" 
+    type="radio" 
+    name="moral-dilemma" 
+    value="2"
+    class="inline" />Cereal
+    </label>
+    <br><br>
+
+    <label for="cat-dog">Cat or Dog?
+      <br>
+    <input id="cat"
+    type="radio"
+    name="cat-dog"
+    value="1"
+    class="inline"
+    checked />Cat
+    </label>
+    <label for="cat-dog">
+    <input id="dog"
+    type="radio"
+    name="cat-dog"
+    value="2"
+    class="inline" />Dog
+    </label>
+    <br><br>
+
+    <label for="dropdown">Choose your fighter:
+      <br>
+    <select id="dropdown" name="dropdown">
+      <option value="">(select one)</option>
+      <option value="1">Cheese</option>
+      <option value="2">Pepperoni</option>
+      <option value="3">Curry</option>
+    </select>
+    <br><br>
+
+    <p>I agree to completely devote myself in terms of:</p>
+    <input type="checkbox"
+    id="term1"
+    name="term1"
+    value="heart">
+    <label for="agreement">Heart
+    </label>
+    <br>
+    <input type="checkbox"
+    id="term2"
+    name="term2"
+    value="soul">
+    <label for="agreement">Soul
+    </label>
+    <br><br>
+
+<text>Bio</text><br>
+    <textarea id="bio"
+    name="bio"
+    placeholder="If you like cheese, we vibe">
+    </textarea>
+    <br><br>
+
+  <input type="submit" 
+  id="submit"
+  value="submit">
+  </fieldset>
+
+</form>
+</body>
+</html>
